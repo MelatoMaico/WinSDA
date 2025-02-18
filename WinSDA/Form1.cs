@@ -16,5 +16,22 @@ namespace WinSDA
         {
             InitializeComponent();
         }
+
+        private void fecharToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void formAzulToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frmazul azul = new Frmazul();
+            azul.Show();
+        }
+
+        private void formVerdeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmVerde verde = new FrmVerde();
+            verde.Show();
+        }
     }
 }
